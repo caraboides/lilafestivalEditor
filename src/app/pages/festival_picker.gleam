@@ -26,7 +26,7 @@ pub fn festival_picker() {
         html.div([attr.class("row")], [
           html.div_text(
             [attr.id("select-festival"), attr.class("col-auto")],
-            "Please Select festival",
+            "Please Select your festival",
           ),
           html.select(
             [
